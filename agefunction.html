@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>The Age Calculator Function</title>
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+  <body>
+    <script>
+      function calculateAge(birthYear, currentYear) {
+        let age = currentYear - birthYear;
+
+        alert("You are either " + age + " or " + (age - 1) + " or " + (age - 2) + ".");
+      };
+
+      calculateAge(1968, new Date().getFullYear());
+      calculateAge(1852, new Date().getFullYear());
+      calculateAge(1944, new Date().getFullYear());
+
+      //OR
+      console.log(1968, new Date(). getFullYear());
+      console.log(1885, new Date(). getFullYear());
+      console.log(1944, new Date().
+        getFullYear());
+    </script>
+  </body>
+</html>

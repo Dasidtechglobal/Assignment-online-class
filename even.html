@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>The Even/Odd Reporter</title>
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+  <body>
+    <script>
+      for (let i = 0; i <= 20; i++) {
+        if (i % 2 === 0) {
+          console.log(i + " is even.");
+        } else {
+          console.log(i + " is odd.");
+        }
+      }
+//or
+      for (let i = 0; i <= 20; i++) {
+        if (i % 2 === 0) {
+          document.write(i + " is even." + "<br>");
+        } else {
+          document.write(i + " is odd." + "<br>");
+        }
+      }
+
+    </script>
+  </body>
+</html>
